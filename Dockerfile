@@ -1,5 +1,9 @@
 FROM adminer
 
+HEALTHCHECK CMD ["/app/healthcheck.sh"]
+
+# Run as "root" for system installation.
+
 USER root
 
 # Install packages.
@@ -19,6 +23,10 @@ RUN apk add \
       pdo_odbc pdo_dblib \
  && apk del .build-deps \
  && rm -rf /var/cache/apk/*
+
+# Copy files from repository.
+
+COPY ./rootfs /
 
 # Runtime execution.
 
