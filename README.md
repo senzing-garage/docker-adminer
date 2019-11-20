@@ -31,6 +31,14 @@ and has added support for MSSQL.
 1. [Errors](#errors)
 1. [References](#references)
 
+### Legend
+
+1. :thinking: - A "thinker" icon means that a little extra thinking may be required.
+   Perhaps you'll need to make some choices.
+   Perhaps it's an optional step.
+1. :pencil2: - A "pencil" icon means that the instructions may need modification before performing.
+1. :warning: - A "warning" icon means that something tricky is happening, so pay attention.
+
 ## Expectations
 
 ### Space

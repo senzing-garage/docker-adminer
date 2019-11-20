@@ -1,5 +1,11 @@
 FROM adminer
 
+ENV REFRESHED_AT=2019-11-13
+
+LABEL Name="senzing/adminer" \
+      Maintainer="support@senzing.com" \
+      Version="1.0.0"
+
 HEALTHCHECK CMD ["/app/healthcheck.sh"]
 
 # Run as "root" for system installation.
