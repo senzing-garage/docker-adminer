@@ -1,4 +1,4 @@
-# docker-template
+# docker-adminer
 
 Placeholder for [GitHub pages](https://pages.github.com/).
 
