@@ -1,10 +1,10 @@
-FROM adminer
+FROM adminer:4.8.1
 
-ENV REFRESHED_AT=2021-10-11
+ENV REFRESHED_AT=2022-09-29
 
 LABEL Name="senzing/adminer" \
       Maintainer="support@senzing.com" \
-      Version="1.0.1"
+      Version="1.0.2"
 
 HEALTHCHECK CMD ["/app/healthcheck.sh"]
 
