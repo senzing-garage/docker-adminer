@@ -12,16 +12,6 @@ HEALTHCHECK CMD ["/app/healthcheck.sh"]
 
 USER root
 
-# Reinstall apk
-
-RUN curl -o apk-tools-static-2.6.8-r1.apk http://dl-cdn.alpinelinux.org/alpine/v3.5/main/x86_64/apk-tools-static-2.6.9-r0.apk
-RUN tar -zxvf apk-tools-static-2.6.8-r1.apk
-RUN cd sbin
-RUN ./apk.static -X http://dl-cdn.alpinelinux.org/alpine/latest-stable/main -U --allow-untrusted --initdb add apk-tools-static
-RUN apk.static update
-RUN ./apk.static -X http://dl-cdn.alpinelinux.org/alpine/latest-stable/main -U --allow-untrusted add apk-tools
-RUN apk update
-
 # Install packages.
 
 RUN apk add \
