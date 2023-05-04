@@ -25,3 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add support for MS SQL
 - Start with ideas presented at [docker-adminer/issue/15](https://github.com/TimWolla/docker-adminer/issues/15)
+
+### Changed in 1.0.0
