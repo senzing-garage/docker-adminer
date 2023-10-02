@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed in 1.0.3
 
-- In `Dockerfile`, updated FROM instruction to `adminer:4.8.1@sha256:40c1d6691703a8ca102dc108c4a6fc11863e928b6ae6014fb8557b6e083a29ff`
+- In `Dockerfile`, updated FROM instruction to `adminer:4.8.1@sha256:576c60c6b64c7fa773c63bc1be8d80213a0ad63ae67f47537d3088e49540640b`
 
 ## [1.0.2] - 2022-09-29
 
