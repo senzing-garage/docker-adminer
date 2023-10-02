@@ -1,10 +1,10 @@
-FROM adminer:4.8.1@sha256:576c60c6b64c7fa773c63bc1be8d80213a0ad63ae67f47537d3088e49540640b
+FROM adminer:4.8.1@sha256:40c1d6691703a8ca102dc108c4a6fc11863e928b6ae6014fb8557b6e083a29ff
 
-ENV REFRESHED_AT=2022-09-29
+ENV REFRESHED_AT=2023-09-29
 
 LABEL Name="senzing/adminer" \
       Maintainer="support@senzing.com" \
-      Version="1.0.2"
+      Version="1.0.3"
 
 HEALTHCHECK CMD ["/app/healthcheck.sh"]
 
