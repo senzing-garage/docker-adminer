@@ -1,5 +1,17 @@
 # docker-adminer
 
+If you are beginning your journey with
+[Senzing](https://senzing.com/),
+please start with
+[Senzing Quick Start guides](https://docs.senzing.com/quickstart/).
+
+You are in the
+[Senzing Garage](https://github.com/senzing-garage)
+where projects are "tinkered" on.
+Although this GitHub repository may help you understand an approach to using Senzing,
+it's not considered to be "production ready" and is not considered to be part of the Senzing product.
+Heck, it may not even be appropriate for your application of Senzing!
+
 ## Overview
 
 A docker wrapper over [Adminer](https://www.adminer.org/).
@@ -10,7 +22,7 @@ and has added support for MSSQL.
 ### Related artifacts
 
 1. [DockerHub](https://hub.docker.com/r/senzing/adminer)
-1. [Helm Chart](https://github.com/Senzing/charts/tree/main/charts/adminer)
+1. [Helm Chart](https://github.com/senzing-garage/charts/tree/main/charts/adminer)
 
 ### Contents
 
@@ -53,7 +65,7 @@ Budget 40 minutes to get the demonstration up-and-running, depending on CPU and 
 
 This repository assumes a working knowledge of:
 
-1. [Docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
+1. [Docker](https://github.com/senzing-garage/knowledge-base/blob/main/WHATIS/docker.md)
 
 ## Demonstrate using Docker
 
@@ -61,7 +73,7 @@ This repository assumes a working knowledge of:
 
 Configuration values specified by environment variable or command line parameter.
 
-- **[ADMINER_DEFAULT_SERVER](https://github.com/Senzing/knowledge-base/blob/main/lists/environment-variables.md#adminer_default_server)**
+- **[ADMINER_DEFAULT_SERVER](https://github.com/senzing-garage/knowledge-base/blob/main/lists/environment-variables.md#adminer_default_server)**
 
 ### Default database
 
@@ -128,14 +140,14 @@ Configuration values specified by environment variable or command line parameter
 
 The following software programs need to be installed:
 
-1. [git](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/git.md)
-1. [make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
-1. [docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
+1. [git](https://github.com/senzing-garage/knowledge-base/blob/main/WHATIS/git.md)
+1. [make](https://github.com/senzing-garage/knowledge-base/blob/main/WHATIS/make.md)
+1. [docker](https://github.com/senzing-garage/knowledge-base/blob/main/WHATIS/docker.md)
 
 ### Clone repository
 
 For more information on environment variables,
-see [Environment Variables](https://github.com/Senzing/knowledge-base/blob/main/lists/environment-variables.md).
+see [Environment Variables](https://github.com/senzing-garage/knowledge-base/blob/main/lists/environment-variables.md).
 
 1. Set these environment variable values:
 
@@ -146,14 +158,14 @@ see [Environment Variables](https://github.com/Senzing/knowledge-base/blob/main/
     export GIT_REPOSITORY_DIR="${GIT_ACCOUNT_DIR}/${GIT_REPOSITORY}"
     ```
 
-1. Follow steps in [clone-repository](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/clone-repository.md) to install the Git repository.
+1. Follow steps in [clone-repository](https://github.com/senzing-garage/knowledge-base/blob/main/HOWTO/clone-repository.md) to install the Git repository.
 
 ### Build docker image for development
 
 1. **Option #1:** Using `docker` command and GitHub.
 
     ```console
-    sudo docker build --tag senzing/adminer https://github.com/senzing/docker-adminer.git#main
+    sudo docker build --tag senzing/adminer https://github.com/senzing-garage/docker-adminer.git#main
     ```
 
 1. **Option #2:** Using `docker` command and local repository.
