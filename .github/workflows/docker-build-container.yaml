@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: build docker image
-        uses: Senzing/github-action-docker-buildx-build@v2
+        uses: senzing-factory/github-action-docker-buildx-build@v2
         with:
           image-repository: senzing/adminer
           password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
