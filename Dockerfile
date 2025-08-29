@@ -1,4 +1,4 @@
-FROM adminer:5.3.0@sha256:63db2157610c1794ec9a0383e5b64eb3cf3b738f856ff68dd0b1f1f1e0413a57
+FROM adminer:5.3.0@sha256:8506ca8a6aa50e39c1fbefdfc9eec32bf97f2c334ef7db9c23cdfa87bfe50a8a
 
 ENV REFRESHED_AT=2023-09-29
 
