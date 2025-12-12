@@ -19,7 +19,5 @@
     "toplevel",
     "unixodbc"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
