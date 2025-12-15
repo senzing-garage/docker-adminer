@@ -2,24 +2,24 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "CCLA",
-    "CODEOWNER",
-    "ICLA",
-    "Senzing",
     "adminer",
     "alnum",
     "buildx",
+    "CCLA",
+    "CODEOWNER",
+    "cooldown",
     "dblib",
+    "dockerfiles",
     "dockerhub",
     "esbenp",
     "freetds",
+    "ICLA",
     "pydevproject",
     "rootfs",
+    "Senzing",
     "stackoverflow",
     "toplevel",
     "unixodbc"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
