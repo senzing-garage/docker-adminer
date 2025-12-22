@@ -1,6 +1,6 @@
 FROM adminer:5.4.1@sha256:e21b24c210671c7a8a0fdaf3a0a2e5779659ff3b5e91b9853b825ac0a8e6a350
 
-ENV REFRESHED_AT=2023-09-29
+ENV REFRESHED_AT=2025-12-22
 
 LABEL Name="senzing/adminer" \
       Maintainer="support@senzing.com" \
